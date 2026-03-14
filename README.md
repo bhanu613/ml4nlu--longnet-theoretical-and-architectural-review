@@ -17,15 +17,14 @@
 
 ## What this repository is
 
-This repository collects the material for our term paper in the ML4NLU course at Universität Trier.
+This is the repository for our term paper in the ML4NLU course at Universität Trier.
 The paper focuses on a **theoretical and methodological analysis** of LongNet — a Transformer
 variant that uses dilated attention to scale sequence length to one billion tokens while keeping
 computation linear in the sequence length.
 
 We deliberately avoided implementation and instead tried to understand the architecture deeply
 enough to assess both what LongNet genuinely achieves and where its current limits are.
-Working through fourteen primary papers from the efficient Transformer literature alongside the
-LongNet paper itself shaped the analysis significantly.
+Reading through fourteen papers from the efficient Transformer literature alongside the original LongNet paper took most of our time, but it was genuinely what shaped how we ended up thinking about the architecture.
 
 ---
 
@@ -104,14 +103,12 @@ See [`tables/long_context_models.md`](tables/long_context_models.md) for a full 
 
 ## Personal motivation
 
-Many of the texts we study in computational linguistics at Universität Trier, just for example- legal
-documents, parliamentary debates, long historical sources — are far longer than what standard
+Many of the texts we study in computational linguistics at Universität Trier, for instance, German legal documents, parliamentary debates, long historical sources — are far longer than what standard
 Transformers can process in a single pass. This made LongNet a natural choice for a term paper:
 we wanted to understand, at a technical level, what it would take to handle such texts as unified
 sequences rather than disconnected chunks.
 
-The paper is not about proposing improvements. It is about building a well-informed, critical
-understanding of one concrete attempt to break the attention bottleneck.
+We were not trying to improve anything or propose a new model. We just wanted to understand this one architecture well enough to say something honest about it.
 
 ---
 
@@ -123,9 +120,7 @@ If you want to reference this student project:
 > A Theoretical and Methodological Review.* Term paper, Universität Trier, ML4NLU,
 > Winter Semester 2025/26.
 
-Please always cite the **original LongNet paper** (Ding et al., 2023) and the other primary
-sources when discussing technical contributions. This repository is a student project and is
-not affiliated with the original authors.
+If you use anything from this project, please make sure to cite the original papers — especially Ding et al. (2023). We're just students writing a term paper; we have no connection to the original LongNet authors.
 
 ---
 
