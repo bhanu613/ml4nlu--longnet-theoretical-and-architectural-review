@@ -5,7 +5,7 @@
 **Lecturer:** Prof. Dr. Achim Rettinger                                                                                                                                                           
 **Seminar Tutor:** Raghvi Baloni M.Sc.  
 **Semester:** Winter Semester 2025/26  
-**Authors:** Bhanu Agarwal (1805320) · Morteza Abdollahi (17883075)  
+**Authors:** Bhanu Agarwal (1805320) · Morteza Abdollahi (1783075)  
 **Seminar Presentation:** 18 December 2025
 
 ---
